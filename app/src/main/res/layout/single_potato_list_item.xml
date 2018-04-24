@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/potato_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/potatoes" />
+
+    <TextView
+        android:id="@+id/potato_name"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/potato_image"
+        android:layout_marginEnd="34dp"
+        android:maxLines="2"
+        android:text="Potato Name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/potato_ingredients"
+        android:text="Potato Ingredients"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/potato_name"
+        android:layout_alignLeft="@+id/potato_name"
+        android:layout_alignStart="@+id/potato_name" />
+
+    <TextView
+        android:id="@+id/potato_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/potato_name"
+        android:layout_marginTop="90dp"
+        android:maxLines="1"
+        android:text="Potato Price"
+        android:textSize="19sp" />
+
+    <ImageView
+        android:id="@+id/potato_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/potato_image"
+        android:layout_marginEnd="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dish_type_veg" />
+    <ImageView
+        android:id="@+id/overflow"
+        android:layout_width="@dimen/ic_album_overflow_width"
+        android:layout_height="@dimen/ic_album_overflow_height"
+        android:layout_alignBottom="@+id/potato_price"
+        android:layout_marginRight="10dp"
+        android:layout_alignEnd="@+id/potato_ingredients"
+        android:src="@drawable/ic_more_vert_black_24dp" />
+
+</RelativeLayout>

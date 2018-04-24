@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "841532771221",
+    "firebase_url": "https://foodmenuapp-8cbcf.firebaseio.com",
+    "project_id": "foodmenuapp-8cbcf",
+    "storage_bucket": "foodmenuapp-8cbcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841532771221:android:281335a97c1ea409",
+        "android_client_info": {
+          "package_name": "com.example.admin.foodmenuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841532771221-rjsiumkk066i36cm30uoupkorc40i0fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuxInlR5FXjLdqYhw2Iuk9jZ64lW3Y0Gc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

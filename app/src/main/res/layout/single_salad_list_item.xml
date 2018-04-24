@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/salad_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/salad_default" />
+
+    <TextView
+        android:id="@+id/salad_name"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/salad_image"
+        android:layout_marginEnd="34dp"
+        android:maxLines="2"
+        android:text="Salad Name"
+        android:textSize="20sp" />
+
+    <TextView
+    android:id="@+id/salad_ingredients"
+    android:text="Salad Ingredients"
+    android:textSize="14sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/salad_name"
+    android:layout_alignLeft="@+id/salad_name"
+    android:layout_alignStart="@+id/salad_name" />
+
+    <TextView
+        android:id="@+id/salad_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/salad_name"
+        android:layout_marginTop="90dp"
+        android:maxLines="1"
+        android:text="Salad Price"
+        android:textSize="19sp" />
+
+    <ImageView
+        android:id="@+id/salad_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/salad_image"
+        android:layout_marginEnd="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dish_type_veg" />
+
+    <ImageView
+        android:id="@+id/overflow"
+        android:layout_width="@dimen/ic_album_overflow_width"
+        android:layout_height="@dimen/ic_album_overflow_height"
+        android:layout_alignBottom="@+id/salad_price"
+        android:layout_marginRight="10dp"
+        android:layout_alignEnd="@+id/salad_ingredients"
+        android:src="@drawable/ic_more_vert_black_24dp" />
+
+</RelativeLayout>

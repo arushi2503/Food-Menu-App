@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Food Menu App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="large_text">
+        "<u><b>COMPANY'S PROFILE</b></u>\n\n"
+        "<b>Ambience</b> \n\n"
+        "This is a perfect location and no matter the occasion,   you are guaranteed a unique dining experience.\n"
+        "Whether you are after an intimate dinner for two or a private party, we cater for all.\n"
+        "We boasts a separate Bollywood function room with a seating capacity for up to 40 people.\n"
+        "The Bollywood room has its own bar and sound system so you can enjoy a truly sensational and private event.\n\n\n"
+
+        "<b>Menu</b> \n\n"
+        "We also boasts an innovative menu, which is prepared with only the freshest and finest ingredients. \n"
+        "It has a comprehensive menu with a variety of vegetarian, meat and fish dishes.\n"
+        "The menu caters for all palettes with its offer of a variety of traditional and contemporary Indian cuisine.\n"
+        "All our dishes are prepared with a genuine passion for creating authentic and mouth-watering food.\n\n\n"
+
+        "If you have a sweet tooth, then you are in for a real treat. Not only do we offer home favourites such as ras malai, we also have 10 varieties of Movenpick Swiss Ice Cream.\n\n\n"
+
+        "The kitchen staff here available are amongst the finest, bringing with them experiences from cooking in five star restaurants in India.\n"
+        "We are also pleased to have the Head chef and pioneer for the much loved menu at Sheesh Mahal join our team.\n\n"
+        "A full take away menu is available, for collection only.\n\n\n\n"
+        "-------------------------------------------------------------------------------------\n\n"
+    </string>
+    <string name="title_activity_locate_us">Map</string>
+</resources>

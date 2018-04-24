@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_menu_category"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="Menu Categories" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="Your Orders" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="Your Favorites" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_location"
+                android:icon="@drawable/ic_my_location_black_24dp"
+                android:iconTint="@color/colorPrimaryDark"
+                android:title="Locate Us" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_phone_black_24dp"
+                android:iconTint="@color/colorPrimaryDark"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>
